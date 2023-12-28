@@ -1,5 +1,27 @@
+@import "./assets/styles/variables.scss";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: $bg-color-dark;
+}
+
+h1, h2, h3 ,h4, h5 {
+  color: $font-title-color-dark;
+}
+
+p {
+  color: $font-paragraph-color-dark;
+  line-height: 1.3rem;
 }

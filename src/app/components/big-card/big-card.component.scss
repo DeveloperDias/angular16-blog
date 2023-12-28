@@ -1,0 +1,13 @@
+.container {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  padding: 2rem;
+  background-color: red;
+
+
+  span > p {
+    font-size: .90rem;
+  }
+}
